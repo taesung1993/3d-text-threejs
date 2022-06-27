@@ -2,7 +2,8 @@
   "scripts": {
     "lint": "npx eslint src/** --fix --ignore-path .eslintignore",
     "dev": "npx webpack serve --config ./webpack.dev.js",
-    "build": "npx webpack --config ./webpack.prod.js"
+    "build": "npx webpack --config ./webpack.prod.js",
+    "deploy": "vercel --prod"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
